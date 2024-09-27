@@ -27,9 +27,9 @@ let handler = async (m, {
         await m.reply(`⚠️ *حدث خطأ أثناء المعالجة. يرجى المحاولة مرة أخرى.*\n\n『🄱🄾🅃 🄰🄻🄼🅄🅂🄰🄱🄸』`)
     }
 }
-handler.help = ["بوت"]
+handler.help = ["بو"]
 handler.tags = ["ai"]
-handler.command = /^(بوت)$/i
+handler.command = /^(بو)$/i
 
 export default handler
 
